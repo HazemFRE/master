@@ -1,0 +1,212 @@
+/* CSS للـ Navbar */
+.navbar {
+    background-color: #135b30; /* لون أخضر داكن */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbar-right, .navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 50px;
+}
+
+.navbar .logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+    color: #FFD700;
+}
+
+.navbar .search-bar {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar .search-input {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.navbar .search-button {
+    background-color: #FFD700; /* لون أصفر */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .search-button:hover {
+    background-color: #FFC107;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.cart img {
+    height: 25px;
+    margin-right: 10px;
+}
+/* تصميم عام لسلة المشتريات */
+.cart-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.cart-container h1 {
+    font-size: 28px;
+    color: #013220; /* لون أخضر داكن */
+    margin-bottom: 20px;
+}
+
+/* تصميم عناصر السلة */
+.cart-items {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.cart-items p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* تصميم زر إتمام الشراء */
+.checkout-button {
+    background-color: #e6c50a; /* لون أصفر */
+    color: #013220; /* لون أخضر داكن */
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.checkout-button:hover {
+    background-color: #FFD700; /* لون أصفر فاتح */
+    color: #013220;
+}
+
+/* CSS للـ Footer */
+.footer {
+    background-color: #035022; /* أخضر داكن */
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer .containers {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0 10%;
+}
+
+.footer-column {
+    width: 30%;
+}
+
+.footer-column h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #FFD700; /* ذهبي */
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #fff;
+}
+
+.footer-bottom .social-icons {
+    margin-bottom: 10px;
+}
+
+.footer-bottom .social-icons a img {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+}
+
+.footer-bottom a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.payment-methods img {
+    width: 40px; /* حجم رموز الدفع */
+    margin-right: 10px;
+}
